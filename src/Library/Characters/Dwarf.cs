@@ -1,6 +1,8 @@
+using Library;
+
 namespace Ucu.Poo.RoleplayGame;
 
-public class Dwarf
+public class Dwarf 
 {
     private int health = 100;
 
@@ -16,14 +18,6 @@ public class Dwarf
     public Shield Shield { get; set; }
 
     public Helmet Helmet { get; set; }
-
-    public int AttackValue
-    {
-        get
-        {
-            return Axe.AttackValue;
-        }
-    }
 
     public int DefenseValue
     {
