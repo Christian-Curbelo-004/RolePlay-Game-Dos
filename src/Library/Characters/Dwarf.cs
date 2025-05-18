@@ -4,7 +4,7 @@ namespace Ucu.Poo.RoleplayGame;
 
 public class Dwarf : IPersonaje
 {
-    private int health = 100;
+    private int health = 200;
     private int initialHealth = 100;
 
     public Dwarf(string name)
@@ -36,7 +36,7 @@ public class Dwarf : IPersonaje
     public Staff Staff { get; set; } = null;
 
     public SpellsBook SpellsBook { get; set; } = null;
-
+    public Bow Bow { get; set; } = null;
     public int AttackPoints { get; set; } = 0;
 
     // NUEVO: puede usar el daño del hacha como valor de ataque
