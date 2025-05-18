@@ -4,7 +4,7 @@ namespace Ucu.Poo.RoleplayGame;
 
 public class Dwarf : IPersonaje
 {
-    private int health = 200;
+    private int health = 100;
     private int initialHealth = 100;
 
     public Dwarf(string name)
@@ -80,7 +80,7 @@ public class Dwarf : IPersonaje
     public void ReceiveAttack(int damage)
     {
         int defensa = GetTotalArmor();
-        if (defensa< damage)
+        if (defensa < damage)
         {
             this.Health -= damage - defensa;
         }
