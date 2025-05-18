@@ -20,8 +20,12 @@ public class Wizard : IPersonaje
     public Helmet Helmet { get; set; } = null;
     public Axe Axe { get; set; } = null;
 
+    public Bow Bow { get; set; } = null;
+
+
     public Bow Bow  { get; set; } = null;
     
+
 
     public int AttackValue
     {
