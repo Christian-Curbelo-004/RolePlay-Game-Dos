@@ -15,6 +15,8 @@ public class Archer
 
     public Helmet Helmet { get; set; }
 
+    public Shield Shield { get; set; }
+
     public int AttackValue
     {
         get
