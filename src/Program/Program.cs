@@ -21,7 +21,7 @@ thorin.Helmet = new Helmet();
 thorin.Shield = new Shield();
 
 
-Archer archer = new Archer("Archer"); // Archer
+IPersonaje archer = new Archer("Archer"); // Archer
 archer.Bow = new Bow();
 archer.Helmet = new Helmet();
 archer.Shield = new Shield();
