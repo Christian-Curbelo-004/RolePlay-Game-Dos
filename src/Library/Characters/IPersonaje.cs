@@ -15,6 +15,8 @@ public interface IPersonaje
     Shield Shield { get; set; }
     Helmet Helmet { get; set; }
     Axe Axe { get; set; }
+    Bow Bow { get; set; }
+
 
     int GetTotalArmor();
     int GetTotalAtack();
@@ -22,5 +24,6 @@ public interface IPersonaje
     void ShowElements();
     void Attack(IPersonaje personaje);
     void ReceiveAttack(int damage);
+
     void Cure();
 }
