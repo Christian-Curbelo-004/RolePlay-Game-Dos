@@ -21,12 +21,7 @@ public class Wizard : IPersonaje
     public Axe Axe { get; set; } = null;
 
     public Bow Bow { get; set; } = null;
-
-
-    public Bow Bow  { get; set; } = null;
     
-
-
     public int AttackValue
     {
         get
