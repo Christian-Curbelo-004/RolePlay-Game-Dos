@@ -9,9 +9,10 @@ IPersonaje  gandalf = new Wizard("Gandalf"); // Wizard
 gandalf.Staff = new Staff();
 gandalf.SpellsBook = book;
 
+
 IPersonaje gimli = new Dwarf("Gimli"); // Dwarf
 
-gimli.Axe = new Axe(10, 200, 30);
+gimli.Axe = new Axe(10, 100, 30);
 gimli.Helmet = new Helmet();
 gimli.Shield = new Shield();
 
@@ -32,7 +33,7 @@ Console.WriteLine($"Gandalf attacks Gimli with ⚔️ {gandalf.AttackValue}");
 
 gimli.ReceiveAttack(gandalf.AttackValue);
 
-Console.WriteLine($"Gimli has ❤️ {gimli.Health}");
+Console.WriteLine($"Gimli has ❤️ {gandalf.AttackValue -gimli.Health  }");
 
 gimli.Cure();
 
