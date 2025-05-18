@@ -19,7 +19,7 @@ public class Wizard : IPersonaje
     public Shield Shield { get; set; } = null;
     public Helmet Helmet { get; set; } = null;
     public Axe Axe { get; set; } = null;
-
+    public Bow Bow { get; set; } = null;
     public int AttackValue
     {
         get
